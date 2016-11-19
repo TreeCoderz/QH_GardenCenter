@@ -99,8 +99,6 @@ float:left;
 	font-family:garamond;
 }
 
-article{
-	height:400px;
-	width:100%;
-	background:lightgreen;
+section {
+	margin:10px;
 }

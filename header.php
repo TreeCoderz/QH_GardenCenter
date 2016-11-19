@@ -4,10 +4,16 @@
 	$query = $_GET['query'];
 		
 	if($query == 'Search Inventory..'){
-		header('Location: index.php');
+		header('Location: search.php');
 	}
-	$conn = mysqli_connect('localhost', 'root', 'root', 'QHGC');
-
+	if($query !== ''){
+		$conn = mysqli_connect('localhost', 'root', 'root', 'QHGC');
+	}
+	
+	function Search($conn){
+		
+	}
+	
 ?>
 
 <html>
@@ -36,7 +42,7 @@
 <body>
 	<div id='nav'>
 	
-	<form action='index.php' method='GET' id='finder'>
+	<form action='search.php' method='GET' id='finder'>
 		<input type='text' name='query' value='Search Inventory..' placeholder='' id='searchBar' onMouseDown='active();' onBlur='inActive();'/><input type='submit' value='Search' id='searchBtn'/>
 	</form>
 	<div id='tabs'>
