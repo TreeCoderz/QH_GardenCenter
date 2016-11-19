@@ -1,0 +1,106 @@
+body {
+	font-family:Garamond;
+	margin:0px;
+	padding:0px;
+	background: #FFFDBA;
+}
+
+h1 {
+	text-align:center;
+}
+
+#tabs {
+float:left;
+}
+
+#hours {
+	position:absolute;
+	font-size:16px;
+}
+
+#nav {
+	padding:5px;
+	height:100px;
+	border-bottom: 6px groove green;
+	background:#A3ED7F;
+}
+
+#nav ul {
+	margin-top:70px;
+	padding-left:0px;
+}
+
+#nav ul li {
+	float:left;
+	margin-left:5px;
+	width:100px;
+	height:30px;       /*keep line-height same*/
+	line-height:30px;
+	font-size:20px;
+	position:relative;
+	background:#2BA83B;
+	border: 1px solid black;
+	border-radius:4px;
+	text-align:center;
+	list-style:none;
+}
+
+#nav ul li a {
+	color:Black;
+	display:block;
+	text-decoration:none;
+}
+
+#nav ul li a:hover {
+	border-radius:2px;
+	background: #24D834;
+}
+
+#nav ul ul{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	display:none;
+}
+
+#nav ul ul li {
+	height:25px;
+	line-height:25px;
+	border:1px solid black;
+	background:#A3ED7F;
+}
+
+#nav ul li:hover > ul {
+	display:block;	
+}
+
+#finder {
+	float:right;
+}
+
+#searchBar {
+	width:220px;
+	padding:3px;
+	outline:none;
+	font-size:16px;
+	border-right:none;
+	border:1px solid black;
+	font-family:garamond;
+}
+
+#searchBtn {
+	padding:3px;
+	margin-left:0px;
+	outline:none;
+	cursor:pointer;
+	font-size:16px;
+	border:1px solid black;
+	background: lightblue;
+	font-family:garamond;
+}
+
+article{
+	height:400px;
+	width:100%;
+	background:lightgreen;
+}
