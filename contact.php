@@ -14,6 +14,16 @@
 	</section>
 	<hr/>
 	
+	<section id="contact">
+		<h3>If you have any Questions, Concerns, or Requests please enter your information</h3>
+		<form>
+			First Name:<br/><input type='text' name='first' placeholder='First Name..' maxlength='15'/><br/>
+			Last Name:<br/><input type='text' name='last' placeholder='Last Name..' maxlength='15'/><br/>
+			Email:<br/><input type='text' name='email' placeholder='Email..' maxlength='15'/><br/>
+			Phone Number:<br/><input type='text' name='phoneNum' placeholder='(***) *** - ****' maxlength='15'/><br/>
+		<form>
+	</section>
+	
 
 </body>
 </html>
