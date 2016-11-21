@@ -13,7 +13,7 @@
 		<a href="https://www.facebook.com/Quartz-Hill-Garden-Center-164363726925671/"><img src='images/fb_logo.png' height='50' width='50'/></a>
 	</section>
 	<hr/>
-	<h1>INCLUDE ERROR INPUT CHECKING</h1>	
+	
 	<section id="contact">
 		<h3>If you have any Questions, Concerns, or Requests please enter your information</h3>
 <?php
