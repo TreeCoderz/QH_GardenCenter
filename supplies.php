@@ -32,5 +32,11 @@
 </section>
 
 
+<footer id='foot'>
+<hr/>
+	Copyright 2016<br/>
+	All Rights Reserved.
+</footer>
+
 </body>
 </html>

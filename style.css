@@ -1,6 +1,11 @@
+html {
+	position:relative;
+	min-height:100%;
+}
+
 body {
 	font-family:Garamond;
-	margin:0px;
+	margin:0 0 100px;
 	padding:0px;
 	background: #FFFDBA;
 }
@@ -105,5 +110,44 @@ section {
 
 #contact {
 	width:450px;
+}
+
+#frontPage {
+	width:1000px;
+}
+
+#productSlideshow {
+	position:relative;
+	float:right;
+	margin-top:20px;
+	margin-right:35px;
+	padding:1px;
+	border:2px groove white;
+}
+
+.productPics {
+	display:container;
+}
+
+.slideshowCaptions {
+	position:absolute;
+	bottom:0px;
+	color:white;
+	padding:10px;
+	width:150px;
+	text-align:center;
+	display:container;
+	background:black;
+	opacity:.7;
+}
+
+#foot {
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	height:60px;
+	text-align:center;
+	overflow:hidden;
+	background:lightgrey;
 }
 
