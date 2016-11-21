@@ -16,12 +16,16 @@
 	
 	<section id="contact">
 		<h3>If you have any Questions, Concerns, or Requests please enter your information</h3>
-		<form>
-			First Name:<br/><input type='text' name='first' placeholder='First Name..' maxlength='15'/><br/>
-			Last Name:<br/><input type='text' name='last' placeholder='Last Name..' maxlength='15'/><br/>
-			Email:<br/><input type='text' name='email' placeholder='Email..' maxlength='15'/><br/>
-			Phone Number:<br/><input type='text' name='phoneNum' placeholder='(***) *** - ****' maxlength='15'/><br/>
-		<form>
+<?php
+	echo	"<form action='".pushContact($conn)."' method='POST'>
+				*First Name:<br/><input type='text' name='first' placeholder='First Name..' maxlength='15'/><br/>
+				*Last Name:<br/><input type='text' name='last' placeholder='Last Name..' maxlength='15'/><br/>
+				*Email:<br/><input type='text' name='email' placeholder='Email..' maxlength='30'/><br/>
+				Phone Number:<br/><input type='text' name='phone' placeholder='(***) *** - ****' maxlength='20'/><br/>
+				<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'/>
+				<br/><input type='submit' value='Submit' name='contactSubmit'/>
+			</form>";
+?>	
 	</section>
 	
 

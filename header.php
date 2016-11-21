@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	date_default_timezone_set('America/Los_Angeles');
 	
 	$query = $_GET['query'];
 		
@@ -8,11 +9,12 @@
 	}
 	if($query !== ''){
 		$conn = mysqli_connect('localhost', 'root', 'root', 'QHGC');
-	}
 	
-	function Search($conn){
-		
+		if(!$conn){
+			die('Connection failed'.mysqli_connect_error());
+		}
 	}
+	include 'submit.php';	
 	
 ?>
 
